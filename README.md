@@ -1,4 +1,3 @@
 # AIvBF
-This project pitches two game engines in a game of N-dimensional tictactoe
-The two game engines are a reinforcement QLearner AI and a brute force algorithm.
-The cost of implementing both approaches is measured and the efficiency versus the accuracy of the game engine is compared.
+This is a repository for implementing and measuring the cost of two game engines a qlearining AI and a brute force algorithm in a game of N-dimensional tic-tac-toe.
+A user can train the AI (by playing games against it, or using the training algorithm), generate the brute force tablebases, pitch both game engines against a game engine making a random move or against themselves, and compare their initial cost and the cost of each iteration. 
