@@ -18,7 +18,7 @@ The **AIvBF** repository is dedicated to implementing and measuring the performa
      - AI vs. AI
    - Analyze the initial cost, and the cost of each iteration for different scenarios.
 # Code Structure
-The source files are organized within the [src] folder, which contains three sub-folders:
+The source files are organized within the ``src`` folder, which contains two files ``tictactoe.py`` (which can be called to run the game) and ``genericTb.py`` (which can be called to generate tablebases of different grid sizes) as well as three sub-folders:
 
 1. game.py:
    - Implements the core game logic for N-dimensional tic-tac-toe.
@@ -33,18 +33,31 @@ The source files are organized within the [src] folder, which contains three sub
    - The code for the AI was adapted from [an opensource gitHub repository](https://github.com/rfeinman/tictactoe-reinforcement-learning/tree/master/tictactoe)
 
 # Running the Program
-To initialize the game loop, use the following command:
+### To initialize the game loop, use the following command:
 
-``python tictactoe.py -gridSize (3/4/5) -x (ai/player/tester) -o (ai/bf) -switchO (0-gridsize) -display gui -games 1``
+``py -3.11 tictactoe.py``
 
+Type in the following commands afterwards to explore different options:  ``-gridSize (3/4/5) -x (ai/player/tester) -o (ai/bf) -switchO (0-gridsize) -display gui -games 1``
 Replace the placeholders with appropriate values:
 
-1. -x: Choose the player type for X (AI, player, or tester).
-2. -o: Choose the player type for O (AI or brute force).
+1. -x: Choose the player type for X ("ai", "player", or "tester").
+2. -o: Choose the player type for O ("ai" or "bf").
 3. -gridSize: Specify the grid size (either 3 or 4 if you want to use the Brute Force algorithm).
 4. -games: Specify the number of games to play.
 5. -display: Select the display mode ("gui","text" or "off").
-6. -switchO: Set the switch position for O (0 to grid size).
+6. -switchO: Set the switch position for O, used when combining AI and Brute Force game engines (0 to size of grid squared).
 7. -aiDataFile: Specify where to store data from AI
+
+### To initialize the generation of tablebases, use the following command:
+
+``py -3.11 generateTablebase.py``
+
+Type in the following commands afterwards to explore different options:  ``-g (3/4) -t (1 to size of grid squared plus one)``
+Replace the placeholders with appropriate values:
+
+1. -g: Specify the grid size (either 3 or 4)
+2. -t: Specify the number of tablebases you want to generate. (It will generate the tablebase with the greatest number of pieces first (i.e grid sizer squared) and decrement by one piece for each tablebase after that) (1 to size of grid squared plus one)
+
+### Using Visual Studio Code:
 
 Feel free to explore, experiment, and compare the performance of these game engines!
