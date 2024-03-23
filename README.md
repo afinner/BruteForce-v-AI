@@ -19,8 +19,9 @@ The **AIvBF** repository is dedicated to implementing and measuring the performa
    - Analyze the initial cost, and the cost of each iteration for different scenarios.
 # Code Structure
 The source files are organized within the ``src`` folder, which contains two files:
-``tictactoe.py`` (which can be called to run the game)
-``genericTb.py`` (which can be called to generate tablebases of different grid sizes)
+1. ``tictactoe.py`` (which can be called to run the game)
+2. ``genericTb.py`` (which can be called to generate tablebases of different grid sizes)
+
 It also contains three sub-folders:
 
 1. game.py:
@@ -41,7 +42,9 @@ It also contains three sub-folders:
 ``py -3.11 tictactoe.py``
 
 Type in the following commands afterwards to explore different options:
+
 ``-gridSize (3/4/5) -x (ai/player/tester) -o (ai/bf) -switchO (0-gridsize) -display gui -games 1``
+
 Replace the placeholders with appropriate values (otherwise it will automatically go with the defaut parameters):
 
 1. ``-x``: Choose the player type for X ("ai", "player", or "tester").
@@ -57,7 +60,9 @@ Replace the placeholders with appropriate values (otherwise it will automaticall
 ``py -3.11 generateTablebase.py``
 
 Type in the following commands afterwards to explore different options:
+
 ``-g (3/4) -t (1 to size of grid squared plus one)``
+
 Replace the placeholders with appropriate values:
 
 1. ``-g``: Specify the grid size (either 3 or 4)
