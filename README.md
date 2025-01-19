@@ -37,6 +37,7 @@ It also contains three sub-folders:
    - Houses the Q-learning AI implementation.
    - Includes training algorithms and decision-making logic.
    - The code for the AI was adapted from [an opensource gitHub repository](https://github.com/rfeinman/tictactoe-reinforcement-learning/tree/master/tictactoe)
+   - Please note all subsequent use of this code must follow the MIT liscense [here](https://github.com/rfeinman/tictactoe-reinforcement-learning/blob/master/LICENSE)
 
 # Running the Program
 ### To initialize the game loop, use the following command:
