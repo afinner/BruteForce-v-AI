@@ -74,5 +74,5 @@ Replace the placeholders with appropriate values:
 ### Using Visual Studio Code:
 
 I used the IDE VSCode throughout the design and implementation so I would advice using this IDE as I have not check compatiability with other IDEs, however you can also run from command line.   
-These are a list of the python dependencies: 
+These are a list of the python dependencies:   
 Feel free to explore, experiment, and compare the performance of these game engines!
