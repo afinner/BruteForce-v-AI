@@ -70,4 +70,5 @@ Replace the placeholders with appropriate values:
 
 ### Using Visual Studio Code:
 
+I used the IDE VSCode throughout the design and implementation so I would advice using this IDE as I have not check compatiability with other IDEs, however you can also run from command line.   
 Feel free to explore, experiment, and compare the performance of these game engines!
