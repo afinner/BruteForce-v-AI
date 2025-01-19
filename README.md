@@ -18,7 +18,7 @@ The **AIvBF** repository is dedicated to implementing and measuring the performa
      - AI vs. AI
    - Analyze the initial cost, and the cost of each iteration for different scenarios.
 4. Project Report Book:
-   - I've also included my project report book from the competition [here]()
+   - I've also included my project report book from the competition [here](https://github.com/afinner/AIvBF/blob/main/BTYS%20Project%20Report%20Book.pdf)
 # Code Structure
 The source files are organized within the ``src`` folder, which contains two files:
 1. ``tictactoe.py`` (which can be called to run the game)
@@ -68,9 +68,10 @@ Type in the following commands afterwards to explore different options:
 Replace the placeholders with appropriate values:
 
 1. ``-g``: Specify the grid size (either 3 or 4)
-2. ``-t``: Specify the number of tablebases you want to generate. (It will generate the tablebase with the greatest number of pieces first (i.e grid sizer squared) and decrement by one piece for each tablebase after that) (1 to size of grid squared plus one)
+2. ``-t``: Specify the number of tablebases you want to generate. (It will generate the tablebase with the greatest number of pieces first (i.e grid size squared) and decrement by one piece for each tablebase after that) (1 to size of grid squared plus one)
 
 ### Using Visual Studio Code:
 
 I used the IDE VSCode throughout the design and implementation so I would advice using this IDE as I have not check compatiability with other IDEs, however you can also run from command line.   
+These are a list of the python dependencies: 
 Feel free to explore, experiment, and compare the performance of these game engines!
