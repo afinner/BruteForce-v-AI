@@ -18,7 +18,7 @@ The **AIvBF** repository is dedicated to implementing and measuring the performa
      - AI vs. AI
    - Analyze the initial cost, and the cost of each iteration for different scenarios.
 4. Project Report Book:
-   - I've also included my project report book from the competition [here](https://github.com/afinner/AIvBF/blob/main/BTYS%20Project%20Report%20Book.pdf)
+   - I've also included my project report book from the competition as a pdf [here](https://github.com/afinner/AIvBF/blob/main/BTYS%20Project%20Report%20Book.pdf)
 # Code Structure
 The source files are organized within the ``src`` folder, which contains two files:
 1. ``tictactoe.py`` (which can be called to run the game)
